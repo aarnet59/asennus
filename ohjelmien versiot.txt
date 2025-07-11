@@ -1,0 +1,35 @@
+GNuCash			3.4
+KeePass			2.0.3
+Digikam			5.9.0
+Gramps			5.0.1
+Gtick			0.5.4
+openshot		2.4.3
+streamripper		1.64.6
+virtualbox		6.0
+gimp			2.10.8
+xsane			0.999
+compizconfig-settings-manager
+ei tietoa tarvitaanko: gnome-system-tools
+jhead			3.00
+audacity		2.2.2
+gparted			0.32.0
+musescore		2.3.2
+ufraw			Ei asenneta
+net-tools		Ei asenneta
+exiftool		11.16-1
+gnome-tweak-tool	Ei asenneta
+dconf-editor		3.30.2
+vlc			3.0.8
+darktable		2.6.0
+exfat-fuse		1.3.0-1
+exfat-utils		1.3.0-1
+cmus			2.7.1
+ranger			1.9.2-4
+easytag			2.4.3
+dispcalgui		3.7.1.4
+liblensfun1		0.3.2-4 (tulee kai darktabeln kanssa)
+
+synaptic		0.84.6
+
+Virtual boxsin asennus:
+https://tecadmin.net/install-virtualbox-on-debian-10-buster/
