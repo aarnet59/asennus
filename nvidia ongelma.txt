@@ -1,0 +1,15 @@
+sudo apt update
+sudo apt upgrade -y
+lspci | grep -i nvidia
+apt -y install linux-headers-$(uname -r) build-essential libglvnd-dev pkg-config
+systemctl reboot
+deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware
+sudo apt update
+sudo apt install nvidia-driver firmware-misc-nonfree
+sudo reboot
+sudo nano /etc/modprobe.d/blacklist-nouveau.conf
+blacklist nouveau
+options nouveau modeset=0
+sudo update-initramfs -u
+sudo reboot
+
